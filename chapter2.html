@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Unity 2D Tutorial</title>
+    <link rel="icon" type="image/png" href="icon.png">
+  </head>
+
+  <body>
+    <div id="header">
+      <a href ="index.html" class="glow"><h1>Unity 2D Tutorial</h1></a><br><br><br>
+      <a href="index.html" class="glow"><h2>Simple Shooter</h2></a>
+    </div>
+
+    <div class="menu">
+      <h4>Chapters</h4>
+      <h3>
+        <ol>
+         <a href="chapter1.html"><li>Variables</li></a>
+         <a href="chapter2.html"><li>Conditional Statements</li></a>
+        </ol>
+      </h3>
+      <h2>by <a href="http://twitter.com/zovfreullia" target="_blank"><u>zovfreullia<u></a></h2>
+    </div>
+    <div class="content">
+      <h4>Programming Terms</h4>
+      <h2>Conditional Statements</h2>
+      <p>Making a tough decision requires us to momentarily pause and think about which options we have available. Only when we have finally concluded on which choice we want to pursue would we then follow it with a set of actions. Conditional statements function in a similar way. The programmer determines what type of environment they want, so they propose a condition that either evaluates to true or false. To relate this to a more familiar concept, let&#8217;s look at passwords. When a new username is created, a password is also asked to be inputted. The program stores the password, and in order to successfully log-in, the user must type the exact password designated to the username.</p></br>
+
+      <p>In this game, we will use a conditional statement to check if the bullet has hit the asteroid. What do you think will happen after we set that conditional statement? Of course, the asteroid will be destroyed and we could also add a point for the player (or deduct a point if you&#8217;re feeling devious).</p></br>
+
+      <mark>If (object collides with asteroid)</br>
+       &nbsp;&nbsp;&nbsp;&nbsp;Destroy the asteroid</br>
+       &nbsp;&nbsp;&nbsp;&nbsp;Score + 1</mark></br></br>
+
+      <p>Okay, so here is a little exercise:</p></br>
+
+      <p>You&#8217;re officially invited by Professor Oak to pick up your first Pok&eacute;mon! I&#8217;m so excited. Well, the bad news is that you can only pick one. You are given the option of Bublasaur, Charmander, and Squirtle. There are also other trainers invited by the Professor, and there&#8217;s the general rule of first come first serve. Trainers who are late would unfortunately receive a mystery Pok&eacute;mon, which I&#8217;ve heard is a Magikarp that refuses to evolve.</p></br>
+
+      <p>In your own words, write a conditional statement that would sort players and which Pok&eacute;mon they would receive given the time they have arrived.</p></br>
+
+      <textarea rows="4" cols="100">Write your conditional statement here.
+      </textarea></br>
+
+      <h2>If Else Statements</h2></br>
+
+      <mark><i>if (expression)</i><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;statement</mark></br></br>
+
+      <h3>True or False?</h3><br>
+
+      <ul>
+      <li><p>The user inputs <u>3</u> for num</br></br>
+      if (num == 2)<br></p></li></br>
+      <li><p>The user inputs <u>6</u> for num</br></br>
+      if (num >= 2)<br> </p></li></br></br>
+      </ul>
+
+      <table id="t01">
+        <tr>
+          <th>Operator</th>
+          <th>Meaning</th>    
+          <th>Sample</th>
+          <th>Results</th>
+        </tr>
+        <tr>
+          <td>==</td>
+          <td>equal to</td>    
+          <td>1 == 1</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>!=</td>
+          <td>not equal to</td>    
+          <td>1 != 4</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td>></td>
+          <td>greater than</td>    
+          <td>1 > 4</td>
+          <td>false</td>
+        </tr>
+        <tr>
+          <td><</td>
+          <td>less than</td>    
+          <td>1 < -2</td>
+          <td>false</td>
+        </tr>
+        <tr>
+          <td>>=</td>
+          <td>greater than or equal to</td>    
+          <td>1 >= 1</td>
+          <td>true</td>
+        </tr>
+        <tr>
+          <td><=</td>
+          <td>less than or equal to</td>    
+          <td>1 <= 4</td>
+          <td>true</td>
+        </tr>
+      </table>
+    </br>
+
+     <h2>Review:</h2>
+      <ul>
+        <li><p>What are conditional statements?</p></li>
+        <li><p>What do conditional statements evaluate?</p></li>
+      </ul>
+      
+      <h2>Practice:</h2>
+      <p>Replace "write an expression statement here" with a proper conditional statement that will run true once compiled. You can copy the code below and paste it on Tutorial&#8217;s Point online <u><a href="http://www.tutorialspoint.com/compile_csharp_online.php" target="_blank">compiler</u>. You can keep playing with different operators to see different results.</p>
+      <br><br>
+<textarea rows="17" cols="100">
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string text = Console.ReadLine();
+        if (write an expression statement here)
+          {
+            Console.WriteLine(text);
+          }
+        else
+          Console.WriteLine("write what you want here.");
+    }
+}
+    </textarea>
+      </p>
+      <br><br><br>
+
+
+    </div>
+
+
+
+
+
+
+
+  </body>
+</html>
